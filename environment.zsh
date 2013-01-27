@@ -15,5 +15,3 @@ mkdir -p $ZSH_CACHE
 export PATH=/usr/local/sbin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
-
-# https://github.com/mxcl/homebrew/issues/11182

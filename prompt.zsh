@@ -120,8 +120,8 @@ add-zsh-hook preexec promptSetMultiplexerTabTitle
 function tmuxChangeDirectory () {
     # set the tmux status line
     if [[ "$TMUX" != "" ]]; then
-        newMailCountTool="/home/seebi/bin/scripts/newMailCount.py"
-        tmux set-option -g status-right "$PWD ✉ #($newMailCountTool $MAIL)" | tee >/dev/null
+        # newMailCountTool="/home/seebi/bin/scripts/newMailCount.py"
+        # tmux set-option -g status-right "$PWD ✉ #($newMailCountTool $MAIL)" | tee >/dev/null
     fi
 
     if [[ $VCS_TYPE == 'hg' ]]; then
